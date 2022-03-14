@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Console.WriteLine("Snake And Ladder");
 
 
@@ -9,6 +10,19 @@ const int NO_PLAY = 0,
 Random random = new Random();
 
 int Roll_Dice()
+=======
+Console.WriteLine("Snake And Ladder");
+
+
+const int START = 0;
+ const int FINISH = 100;
+ const int NO_PLAY = 0,
+           LADDER = 1, 
+           SNAKE = 2;
+ Random random = new Random();
+
+ int Roll_Dice()
+>>>>>>> b95d2ba3fc67f61bc75626097a0c4ac79fb2f4f2
 {
     // random value is given to palyer's dice
     return random.Next(1, 7);
@@ -33,7 +47,11 @@ int Player_Move_Option(int player_Roll_Dice)
 }
 
 {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b95d2ba3fc67f61bc75626097a0c4ac79fb2f4f2
     // player initial position
     int player_position = 0, player_Next_Position;
 
